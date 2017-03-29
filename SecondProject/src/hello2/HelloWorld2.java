@@ -30,7 +30,6 @@ public class HelloWorld2
 		System.out.println("*                 *");
 		System.out.println("*                 *");
 		System.out.println("*                 *");
-		String doYouWantTo;
 		
 	
 	}
