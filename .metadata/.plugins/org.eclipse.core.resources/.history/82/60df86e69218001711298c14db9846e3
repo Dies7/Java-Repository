@@ -1,0 +1,14 @@
+package examples;
+import javax.swing.JOptionPane;
+public class SalaryDialog {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String wageString, dependentsString;
+		double wage, weeklyPay;
+		int dependents;
+		final double HOURS_IN_WEEK = 37.5;
+		wageString = JOptionPane.showInputDialog(null,)
+	}
+
+}
