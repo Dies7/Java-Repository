@@ -1,0 +1,10 @@
+package exercises;
+
+public class Initials {
+
+	public static void main(String[] args) {
+		//Evan Dies 3 April 2017
+
+	}
+
+}

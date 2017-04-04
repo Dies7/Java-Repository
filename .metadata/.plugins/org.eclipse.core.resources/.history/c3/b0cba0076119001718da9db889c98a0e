@@ -1,0 +1,15 @@
+package exercises;
+import javax.swing.JOptionPane;
+public class Eggs {
+
+	public static void main(String[] args) {
+		//Evan Dies 3 April 2017
+		String eggsString;
+		int eggs, eggsDozen;
+		double eggsPrice;
+		final double eggPrice = .45;
+		final double eggDozenPrice = 3.25;
+		eggsString = JOptionPane.showInputDialog(null, "How many eggs do you want?", JOptionPane.INFORMATION_MESSAGE);
+	}
+
+}
