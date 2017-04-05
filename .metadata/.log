@@ -636,3 +636,42 @@ This warning can be switched off on the Team > Git > Confirmations and Warnings 
 
 !ENTRY WPILib_Java_Robot_Development 1 0 2017-04-05 11:39:25.564
 !MESSAGE Updating projects
+
+!ENTRY org.eclipse.ui.workbench 4 2 2017-04-05 12:17:20.111
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.workbench".
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.egit.ui.internal.decorators.GitLightweightDecorator$DecorationHelper.setBackgroundColor(GitLightweightDecorator.java:416)
+	at org.eclipse.egit.ui.internal.decorators.GitLightweightDecorator$DecorationHelper.decorateFontAndColour(GitLightweightDecorator.java:406)
+	at org.eclipse.egit.ui.internal.decorators.GitLightweightDecorator$DecorationHelper.decorate(GitLightweightDecorator.java:376)
+	at org.eclipse.egit.ui.internal.decorators.GitLightweightDecorator.decorateResource(GitLightweightDecorator.java:203)
+	at org.eclipse.egit.ui.internal.decorators.GitLightweightDecorator.decorate(GitLightweightDecorator.java:176)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorDefinition.decorate(LightweightDecoratorDefinition.java:267)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager$LightweightRunnable.run(LightweightDecoratorManager.java:83)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.decorate(LightweightDecoratorManager.java:367)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.getDecorations(LightweightDecoratorManager.java:349)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.ensureResultCached(DecorationScheduler.java:372)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:332)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.ui 4 4 2017-04-05 12:17:20.137
+!MESSAGE Exception in Decorator. The 'Git' decorator will be disabled.
+
+!ENTRY org.eclipse.ui 4 4 2017-04-05 12:17:20.138
+!MESSAGE java.lang.NullPointerException
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.egit.ui.internal.decorators.GitLightweightDecorator$DecorationHelper.setBackgroundColor(GitLightweightDecorator.java:416)
+	at org.eclipse.egit.ui.internal.decorators.GitLightweightDecorator$DecorationHelper.decorateFontAndColour(GitLightweightDecorator.java:406)
+	at org.eclipse.egit.ui.internal.decorators.GitLightweightDecorator$DecorationHelper.decorate(GitLightweightDecorator.java:376)
+	at org.eclipse.egit.ui.internal.decorators.GitLightweightDecorator.decorateResource(GitLightweightDecorator.java:203)
+	at org.eclipse.egit.ui.internal.decorators.GitLightweightDecorator.decorate(GitLightweightDecorator.java:176)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorDefinition.decorate(LightweightDecoratorDefinition.java:267)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager$LightweightRunnable.run(LightweightDecoratorManager.java:83)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.decorate(LightweightDecoratorManager.java:367)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.getDecorations(LightweightDecoratorManager.java:349)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.ensureResultCached(DecorationScheduler.java:372)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:332)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
