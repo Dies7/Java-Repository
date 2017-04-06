@@ -5,6 +5,7 @@ public class RandomGuessMatch {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 	   displayOutcome();
+	   SalaryDialog.salary();
 	}
 	public static void displayOutcome()
 	{
