@@ -1,0 +1,91 @@
+package exercises;
+import java.util.Scanner;
+public class PizzaChoice {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String choice, choice2;
+		int toppingChoice;
+		double large = 10.99;
+		double medium = 7.99;
+		double small = 4.99;
+		Scanner input = new Scanner(System.in);
+		System.out.print("Would you like pizza? Yes or No?");
+		choice = input.nextLine();
+		if("Yes".equals(choice) ||"yes".equals(choice)||"y".equals(choice))
+		{
+			System.out.println("You said " + choice + " to eating pizza.");
+			System.out.print("Please choose a topping: '1' for Hamburger, '2' for Peperoni, '3' for Canadian Bacon, or '4' for no toppings.");
+			toppingChoice = input.nextInt();
+			if(toppingChoice == 1)
+			{
+				System.out.println("You said Hamburger Pizza, what size do you want? 'Small', 'Medium', or 'Large'?");
+				choice2 = input.nextLine();
+				if(choice2.equals("small"))
+				{
+					
+				}
+				if(choice2.equals("medium"))
+				{
+					
+				}
+				if(choice2.equals("large"))
+				{
+					
+				}
+			}
+			if(toppingChoice == 2)
+			{
+				System.out.println("You said Peperoni Pizza, what size do you want? 'Small', 'Medium', or 'Large'?");
+				choice2 = input.nextLine();
+				if(choice2.equals("small"))
+				{
+					
+				}
+				if(choice2.equals("medium"))
+				{
+					
+				}
+				if(choice2.equals("large"))
+				{
+					
+				}
+			}
+			if(toppingChoice == 3)
+			{
+				System.out.println("You said Canadian Bacon Pizza, what size do you want? 'Small', 'Medium', or 'Large'?");
+				choice2 = input.nextLine();
+				if(choice2.equals("small"))
+				{
+					
+				}
+				if(choice2.equals("medium"))
+				{
+					
+				}
+				if(choice2.equals("large"))
+				{
+					
+				}
+			}
+			if(toppingChoice >= 4)
+			{
+				System.out.println("You said Plain Cheese Pizza, what size do you want? 'Small', 'Medium', or 'Large'?");
+				choice2 = input.nextLine();
+				if(choice2.equals("small"))
+				{
+					
+				}
+				if(choice2.equals("medium"))
+				{
+					
+				}
+				if(choice2.equals("large"))
+				{
+					
+				}
+			}
+		}
+	}
+
+}

@@ -1,0 +1,18 @@
+package exercises;
+import java.util.Scanner;
+public class PizzaChoice {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String choice;
+		Scanner input = new Scanner(System.in);
+		System.out.print("Would you like pizza? Yes or No?");
+		choice = input.nextLine();
+		if("Yes".equals(choice) ||"yes".equals(choice)||"y".equals(choice))
+		{
+			System.out.println("You said " + choice + " to eating pizza.");
+			System.out.print("Please choose a topping: '1' for Hamburger, '2' for Peperoni, or '3' for Canadian Bacon.");
+		}
+	}
+
+}

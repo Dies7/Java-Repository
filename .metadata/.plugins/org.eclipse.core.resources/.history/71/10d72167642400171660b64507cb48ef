@@ -1,0 +1,51 @@
+/**
+ * 
+ */
+package delgado;
+import javax.swing.JOptionPane;
+/**
+ * @author ed131193
+ *
+ */
+public class TacoTruck {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		tacoTruck();
+	}
+	public static void tacoTruck()
+	{
+		 JOptionPane.showMessageDialog(null, "  _______________________________________" +
+				                           "\n  |                                       TACOS                                      |" +
+				 						   "\n  |                ___________________                              |" +
+				 						   "\n  |               |                                            |                             |" +
+				 						   "\n  |               |___________________|                             |" +
+				 						   "\n  |                                                                                          |------------|" +  
+				 						   "\n  |                                                                                                           |" +
+				 						   "\n  |                                                                                                           |" +
+				 						   "\n  |                                                                                                           |" +
+				 						   "\n|-----------------------------------------------------------------------------------|" +
+				 						   "\n                 |______|                                        |______|");
+	}
+	public static void menu()
+	{
+		String tacoString, burritoString;
+		final double tacoPrice = 1.25;
+		final double burritoPrice = 3.35;
+		double tacoOrdered, burritoOrdered;
+		double taco, burrito;
+	}
+	public static void food()
+	{
+		tacoString = JOptionPane.showInputDialog(null, "How many tacos do you want?", "Taco Amount", JOptionPane.INFORMATION_MESSAGE);
+		taco = Double.parseDouble(tacoString);
+	}
+	public static void price()
+	{
+		
+	}
+
+}
