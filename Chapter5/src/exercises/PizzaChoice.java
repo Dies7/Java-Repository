@@ -1,6 +1,8 @@
 package exercises;
 import java.util.Scanner;
 public class PizzaChoice {
+//Evan Dies
+//This class offers you a pizza menu via a scanner.
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		String choice, choice2;

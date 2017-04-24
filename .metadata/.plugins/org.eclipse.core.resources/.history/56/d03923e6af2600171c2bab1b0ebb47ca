@@ -1,0 +1,15 @@
+package switches;
+
+public class SwitchStatementAge {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int user;
+		Scanner input = new Scanner(System.in);
+		
+		System.out.print("How old are you? >>>> ");
+		user = input.nextInt();
+		switch
+	}
+
+}

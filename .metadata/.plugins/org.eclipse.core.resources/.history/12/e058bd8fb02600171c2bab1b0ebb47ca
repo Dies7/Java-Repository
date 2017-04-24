@@ -1,0 +1,29 @@
+package switches;
+
+import java.util.Scanner;
+
+public class SwitchStatementAge {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int user;
+		Scanner input = new Scanner(System.in);
+		
+		System.out.print("How old are you? >>>> ");
+		user = input.nextInt();
+		switch(user)
+		{
+		case 138992:
+			System.err.println("You are Dusty.");
+			break;
+		case 131193;
+			System.err.println("You are Evan");
+			break;
+		case 122190;
+			System.err.print("You are Brandon");
+			break;
+		case 308508
+		}
+	}
+
+}

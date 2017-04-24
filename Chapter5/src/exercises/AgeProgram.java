@@ -1,7 +1,8 @@
 package exercises;
 import java.util.Scanner;
 public class AgeProgram {
-
+//Evan Dies
+//This class gives you messages based on your age via a Scanner.
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		int age;
