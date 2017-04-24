@@ -116,7 +116,7 @@ public class TacoTruck {
 					 JOptionPane.QUESTION_MESSAGE);
 			
 		} while(choice.equals("Yes") || choice.equals("yes") || choice.equals("y") || choice.equals("Y"));
-		totalOfTotals = tacoOrder + burritoOrder + chimichangaOrder + fajitaOrder + churroOrder + spanishRiceOrder + enchiladaOrder + beanOrder + fishTacoOrder + nachoOrder;
+		totalOfTotals = tacoOrder + burritoOrder + chimichangaOrder + fajitaOrder + churroOrder + spanishRice + enchiladaOrder + beanOrder + fishTacoOrder + nachoOrder;
 		JOptionPane.showMessageDialog(null, "The total price of your order is $" + totalOfTotals);
 		JOptionPane.showMessageDialog(null, "Thanks for ordering!");
 		tacoTruck();

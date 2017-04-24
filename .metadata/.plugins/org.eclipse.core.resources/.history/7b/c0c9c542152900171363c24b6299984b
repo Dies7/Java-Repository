@@ -18,9 +18,9 @@ public class TacoTruck {
 		final double tacoPrice = 2.25, burritoPrice = 3.45, chimichangaPrice = 6.20, fajitaPrice = 7.35, churroPrice = 1.35, spanishRicePrice = 1, enchiladaPrice = 5.60, beanPrice = 0.75, fishTacoPrice = 3, nachoPrice = 2.75;
 		double tacoOrdered = 0, burritoOrdered = 0, chimichangaOrdered = 0, fajitaOrdered = 0, churroOrdered = 0,spanishRiceOrdered = 0, enchiladaOrdered = 0, beanOrdered = 0, fishTacoOrdered = 0, nachoOrdered = 0;
 		int tacos, burritos, chimichangas, fajitas, churros, spanishRice, enchiladas, beans, fishTacos, nachos;
-		double tacoOrder = 0, burritoOrder = 0, chimichangaOrder = 0, fajitaOrder = 0, churroOrder = 0, spanishRiceOrder = 0, enchiladaOrder = 0, beanOrder = 0, fishTacoOrder = 0, nachoOrder = 0;
+		double tacoOrder, burritoOrder, chimichangaOrder, fajitaOrder, churroOrder, spanishRiceOrder, enchiladaOrder, beanOrder, fishTacoOrder, nachoOrder;
 		String choice;
-		double totalOfTotals;
+		double totalofTotals;
 		
 		JOptionPane.showMessageDialog(null, "Here is our menu, please choose an item to order. >>>", "Welcome", 
 				JOptionPane.INFORMATION_MESSAGE);
@@ -116,10 +116,9 @@ public class TacoTruck {
 					 JOptionPane.QUESTION_MESSAGE);
 			
 		} while(choice.equals("Yes") || choice.equals("yes") || choice.equals("y") || choice.equals("Y"));
-		totalOfTotals = tacoOrder + burritoOrder + chimichangaOrder + fajitaOrder + churroOrder + spanishRiceOrder + enchiladaOrder + beanOrder + fishTacoOrder + nachoOrder;
-		JOptionPane.showMessageDialog(null, "The total price of your order is $" + totalOfTotals);
-		JOptionPane.showMessageDialog(null, "Thanks for ordering!");
+        JOptionPane.showMessageDialog(null, "Thanks for ordering!");
 		tacoTruck();
+		totalOfTotals = tacoOrder + burritoOrder + chimichangaOrder + fajitaOrder + churroOrder + spanishRice + enchiladaOrder + beanOrder + fishTacoOrder + nachoOrder;
 	}
 	public static void tacoTruck()
 	{

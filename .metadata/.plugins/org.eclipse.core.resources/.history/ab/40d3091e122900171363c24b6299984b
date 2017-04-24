@@ -14,6 +14,6 @@ public class debugging4 {
 	}
 	 public static void tuitionBill(int c, double r)
 	   {
-	      System.out.println("Total due " + (c*r));
+	      System.out.println("Total due " + (a*b));
 	   }
 }

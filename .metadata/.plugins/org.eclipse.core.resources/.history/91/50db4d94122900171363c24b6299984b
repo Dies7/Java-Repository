@@ -1,5 +1,5 @@
 package debuggingExercises;
-import java.util.Scanner;
+
 public class debugging3 {
 
 	public static void main(String[] args) {
