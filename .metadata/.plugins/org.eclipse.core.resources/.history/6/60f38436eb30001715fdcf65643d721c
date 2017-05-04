@@ -1,0 +1,26 @@
+package brosiusSlaveWork;
+import java.util.Scanner;
+public class EightThree {
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		 int n;
+	        Scanner s = new Scanner(System.in);
+	        int[] numbers = new int[]{23,6,47,35,2,14};
+	        n = s.nextInt();
+	        int a[] = new int[n];
+	        for (int i = 0; i < n; i++) 
+	        {
+	            a[i] = s.nextInt();
+	        }
+	        System.out.print("Odd numbers:");
+	        for(int i = 0 ; i < n ; i++)
+	        {
+	            if(a[i] % 2 != 0)
+	            {
+	                System.out.print(a[i]+" ");
+	            }
+	        }
+	}
+
+}

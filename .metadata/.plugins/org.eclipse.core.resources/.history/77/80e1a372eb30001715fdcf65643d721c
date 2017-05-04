@@ -1,0 +1,18 @@
+package brosiusSlaveWork;
+import java.util.Scanner;
+public class EightThree {
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		 int[] numbers = new int[]{23,6,47,35,2,14};
+         System.out.println("Printing Odd numbers between 1 and " + numbers);
+         for(int i=1; i < 7; i++){
+                
+                 //if the number is not divisible by 2 then it is odd
+                 if( i % 2 != 0){
+                         System.out.print(i + " ");
+                 }
+         }
+	}
+
+}

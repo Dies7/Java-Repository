@@ -1,0 +1,32 @@
+package gameZone;
+import javax.swing.JOptionPane;
+import java.util.Random;
+public class RockPaperScissors {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Random r = new Random();
+		int result1 = r.nextInt(3) + 1;
+		int rock = 1, paper = 2, scissors = 3;
+		String resultString;
+		String userAnswer, computerAnswer;
+		int answerInt;
+		
+		userAnswer = JOptionPane.showInputDialog(null, "Choose \n1 for Rock\n2 for Paper\n3 for Scissors");
+		answerInt = Integer.parseInt(userAnswer);
+		
+		if(answerInt == 1)//rock
+		{
+			userAnswer = "rock";
+		}
+		else
+		{
+			if(answerInt == 2)
+			{
+				
+			}
+		}
+		JOptionPane.showMessageDialog(null,  "You picked " );
+	}
+
+}

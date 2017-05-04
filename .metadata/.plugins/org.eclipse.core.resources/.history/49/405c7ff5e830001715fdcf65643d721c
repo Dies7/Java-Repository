@@ -1,0 +1,30 @@
+package brosiusSlaveWork;
+
+import java.util.Scanner;
+
+public class EightOne {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		   //define an array
+        int[] numbers = new int[]{23,6,47,35,2,14};
+       
+        /*
+         * Average value of array elements would be
+         * sum of all elements/total number of elements
+         */
+       
+        //calculate sum of all array elements
+        int sum = 0;
+       
+        for(int i=0; i < numbers.length ; i++)
+                sum = sum + numbers[i];
+       
+        //calculate average value
+        double average = sum / numbers.length;
+       
+        System.out.println("Average value of array elements is : " + average);
+
+	}
+
+}

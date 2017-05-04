@@ -1,0 +1,12 @@
+package exercises;
+import javax.swing.JOptionPane;
+public class Pay {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String skillLevelString;
+		skillLevelString = JOptionPane.showInputDialog(null, "What skill level are you, 1, 2, or 3?");
+		skilllevelInt = 
+	}
+
+}

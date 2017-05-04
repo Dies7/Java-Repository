@@ -1,0 +1,24 @@
+package brosiusSlaveWork;
+import java.util.Scanner;
+public class EightTwo {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner in = new Scanner(System.in);
+
+        double[] decMax = {23,6,47,35,2,14};
+        double total = 0, avgMax = 0;
+        for (int counter = 0; counter < decMax.length; counter++)
+        	total += decMax[counter];
+        avgMax = total / decMax.length;
+        System.out.printf("%s %2.2f\n", "The average number is: ", avgMax);
+        //finds the highest value
+        double max = decMax[0];
+        for (int counter = 1; counter < decMax.length; counter++)
+        	if (decMax[counter] > max)
+        		max = decMax[counter];
+         System.out.println("The highest number value is: " + max);
+
+	}        
+}
+
