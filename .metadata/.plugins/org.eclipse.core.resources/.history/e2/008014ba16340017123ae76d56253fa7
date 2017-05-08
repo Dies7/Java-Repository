@@ -1,0 +1,78 @@
+package exercise;
+import java.util.Scanner;
+public class PythagorasTheory {
+
+	public static void main(String[] args) 
+	{
+		// TODO Auto-generated method stub
+	String choice;
+	Scanner input = new Scanner(System.in);
+	System.out.println("Which side are you looking for? A, B, or C");
+	choice = input.nextLine();
+	
+	if("A".equals(choice))
+	{
+		displayAside();
+	}
+	if("B".equals(choice))
+	{
+		displayBside();
+	}
+	if("C".equals(choice))
+	{
+		displayCside();
+	}
+	}
+	public static void displayAside()
+	{
+		double userEntryA, userEntryB, userEntryC;
+		System.out.print("Enter your number for side B>>>> ");
+		userEntryB = input.nextInt();
+		
+		System.out.print("Enter your number for side C>>>> ");
+		userEntryB = input.nextInt();
+		answerA = Math.sqrt(userEntryB * userEntryB + userEntryC * userEntryC);
+		System.out.print(answerA);
+	}
+	public static void displayBside()
+	{
+		double userEntryA, userEntryB, userEntryC;
+		System.out.print("Enter your number for side A>>>> ");
+		userEntryA = input.nextInt();
+		
+		System.out.print("Enter your number for side C>>>> ");
+		userEntryC = input.nextInt();
+		answerB = Math.sqrt(userEntryA * userEntryA + userEntryC * userEntryC);
+		System.out.print(answerB);
+	}
+	}
+	public static void displayCside()
+	{
+		double userEntryA, userEntryB, userEntryC;
+		System.out.print("Enter your number for side A>>>> ");
+		userEntryA = input.nextInt();
+		
+		System.out.print("Enter your number for side B>>>> ");
+		userEntryB = input.nextInt();
+		answerC = Math.sqrt(userEntryA * userEntryA + userEntryB * userEntryB);
+		System.out.print(answerC);
+	}
+	public static void trianglePicture()
+	{
+		System.out.println("t");
+		System.out.println("tt");
+		System.out.println("ttt");
+		System.out.println("tttt");
+		System.out.println("ttttt");
+		System.out.println("tttttt");
+		System.out.println("ttttttt");
+		System.out.println("tttttttt");
+		System.out.println("ttttttttt");
+		System.out.println("tttttttttt");
+		System.out.println("ttttttttttt");
+		System.out.println("");
+		System.out.println("");
+		System.out.println("");
+	}
+
+}
